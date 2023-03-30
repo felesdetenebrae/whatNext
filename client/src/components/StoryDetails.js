@@ -1,5 +1,4 @@
 import { React, useState, useRef } from "react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useNavigate } from "react-router-dom";
 import Noty from "noty";
 import "../../node_modules/noty/lib/themes/sunset.css";
@@ -9,7 +8,6 @@ import Texts from "../img/Texts.png";
 const axios = require("axios");
 
 export default function StoryDetails() {
-  const parallax = useRef(null);
   const navigate = useNavigate();
 
   const categories = [
